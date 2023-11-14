@@ -1,5 +1,7 @@
+import os
+path1 = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 import sys
-sys.path.append(r'D:\study\practice_sele\subject_network')
+sys.path.append(path1)
 from base.operation_element import OperationElement
 from selenium import webdriver
 from time import sleep
